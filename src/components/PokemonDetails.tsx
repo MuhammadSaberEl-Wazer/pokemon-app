@@ -29,7 +29,7 @@ const PokemonDetails: React.FC<PokemonDetailsProps> = ({ pokemon }) => {
     },
   ];
   return (
-    <div className="mx-auto my-[2rem] w-[80%] sm:w-[60%] md:w-[30%] border-solid border-[#ddd] border-[1px] rounded-sm">
+    <div className="mx-auto my-[2rem] w-[80%] min-h-[80vh] sm:w-[60%] md:w-[30%] border-solid border-[#ddd] border-[1px] rounded-sm">
       <div className="bg-[#2E7CF6] min-h-[4rem] flex justify-center items-center">
         <h1 className="text-white capitalize">{pokemon.name}</h1>
       </div>
@@ -59,4 +59,4 @@ const PokemonDetails: React.FC<PokemonDetailsProps> = ({ pokemon }) => {
   );
 };
 
-export default PokemonDetails; 
+export default PokemonDetails;
