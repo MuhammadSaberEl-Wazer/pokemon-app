@@ -7,7 +7,7 @@ import ErrorDisplay from "../components/common/ErrorDisplay";
 
 const PokemonDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const pokemonId = Number(id); // Convert the string ID to a number
+  const pokemonId = Number(id); 
   const { data, error, isLoading } = useGetPokemonDetailsQuery(pokemonId);
 
   if (isLoading) return <LoadingSpinner />;

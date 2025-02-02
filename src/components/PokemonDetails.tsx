@@ -59,4 +59,4 @@ const PokemonDetails: React.FC<PokemonDetailsProps> = ({ pokemon }) => {
   );
 };
 
-export default PokemonDetails; // Ensure this is a default export
+export default PokemonDetails; 
